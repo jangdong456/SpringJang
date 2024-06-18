@@ -16,4 +16,9 @@ public class WeatherController {
 		return "weather/list";
 	}
 
+	@RequestMapping("weather/detail")
+	public String getDetail() {
+		System.out.println("detail입니다");
+		return "weather/detail";
+	}
 }
