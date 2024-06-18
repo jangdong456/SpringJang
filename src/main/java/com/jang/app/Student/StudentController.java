@@ -18,4 +18,11 @@ public class StudentController {
 		
 		return "student/list";
 	}	
+	
+	@RequestMapping("/weather/detail")
+	public String getDetail() {
+		System.out.println("detail 가져오기");
+	
+	  return "weather/detail";
+	}	
 }
