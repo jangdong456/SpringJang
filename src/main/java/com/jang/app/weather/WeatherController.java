@@ -41,20 +41,20 @@ public class WeatherController {
 	
 	 // 2개이상 이면 무조건 속성명 써야한다.
 	// method 기본은 get이다.
-	@RequestMapping(value = "weather/add", method=RequestMethod.GET)
-	public void add() {
-		
-	}
-	
-	@RequestMapping(value = "weather/add", method=RequestMethod.POST)
-	public void add2() {
-		
-	}
-
-	@RequestMapping(value = "/weather/add", method = RequestMethod.GET)
-	public String add() { // 안쓰면 기본이 get --> 속성으로 드갈 때 속성명
-		return "weather/add";
-	}
+//	@RequestMapping(value = "weather/add", method=RequestMethod.GET)
+//	public void add() {
+//		
+//	}
+//	
+//	@RequestMapping(value = "weather/add", method=RequestMethod.POST)
+//	public void add2() {
+//		
+//	}
+//
+//	@RequestMapping(value = "/weather/add", method = RequestMethod.GET)
+//	public String add() { // 안쓰면 기본이 get --> 속성으로 드갈 때 속성명
+//		return "weather/add";
+//	}
 
 	@RequestMapping(value = "/weather/add", method = RequestMethod.POST)
 	public String add2(HttpServletRequest request) {

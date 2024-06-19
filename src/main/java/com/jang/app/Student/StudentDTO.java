@@ -4,7 +4,7 @@ public class StudentDTO {
 	
 	private int num;
 	private String city;
-	private Double gion;
+	private double gion;
 	private String status;
 	private int huminity;
 	
@@ -20,10 +20,10 @@ public class StudentDTO {
 	public void setCity(String city) {
 		this.city = city;
 	}
-	public Double getGion() {
+	public double getGion() {
 		return gion;
 	}
-	public void setGion(Double gion) {
+	public void setGion(double gion) {
 		this.gion = gion;
 	}
 	public String getStatus() {
@@ -38,7 +38,6 @@ public class StudentDTO {
 	public void setHuminity(int huminity) {
 		this.huminity = huminity;
 	}
-	
 	
 	
 }
